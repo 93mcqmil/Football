@@ -1,0 +1,9 @@
+.wrapper {
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+
+p {
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

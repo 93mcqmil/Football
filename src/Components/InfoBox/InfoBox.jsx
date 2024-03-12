@@ -1,3 +1,6 @@
+import "./InfoBox.css";
+
+//This is the infoBox with the different property of the json file
 const InfoBox = ({
   name,
   founded,
@@ -7,6 +10,8 @@ const InfoBox = ({
   country,
   homeground,
 }) => {
+  //What is being displayed at the webpage! we also export Infobox and import it at the
+  // Dropdown function
   return (
     <>
       <div className='wrapper'>
