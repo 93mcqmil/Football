@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Manchester United",
+    "founded": 1878,
+    "trophies": 35,
+    "city": "Manchester",
+    "manager": "Ralf Rangnick",
+    "country": "England",
+    "home_ground": "Old Trafford"
+  },
+  {
+    "name": "Liverpool",
+    "founded": 1892,
+    "trophies": 32,
+    "city": "Liverpool",
+    "manager": "Jürgen Klopp",
+    "country": "England",
+    "home_ground": "Anfield"
+  },
+  {
+    "name": "Manchester City",
+    "founded": 1880,
+    "trophies": 12,
+    "city": "Manchester",
+    "manager": "Pep Guardiola",
+    "country": "England",
+    "home_ground": "Etihad Stadium"
+  },
+  {
+    "name": "Chelsea",
+    "founded": 1905,
+    "trophies": 16,
+    "city": "London",
+    "manager": "Thomas Tuchel",
+    "country": "England",
+    "home_ground": "Stamford Bridge"
+  },
+  {
+    "name": "Arsenal",
+    "founded": 1886,
+    "trophies": 17,
+    "city": "London",
+    "manager": "Mikel Arteta",
+    "country": "England",
+    "home_ground": "Emirates Stadium"
+  },
+  {
+    "name": "Tottenham Hotspur",
+    "founded": 1882,
+    "trophies": 10,
+    "city": "London",
+    "manager": "Antonio Conte",
+    "country": "England",
+    "home_ground": "Tottenham Hotspur Stadium"
+  }
+]
