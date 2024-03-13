@@ -45,7 +45,7 @@ const Dropdown = () => {
           city={selectedTeamObj.city}
           manager={selectedTeamObj.manager}
           country={selectedTeamObj.country}
-          homeground={selectedTeamObj.home_ground}
+          homeground={selectedTeamObj.homeground}
         />
       )}
     </div>

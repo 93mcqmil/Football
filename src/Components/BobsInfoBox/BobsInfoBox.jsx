@@ -15,11 +15,15 @@ const BobsInfoBox = ({
   return (
     <>
       <div>
-        <h1>Builder Bob</h1>
+        <h3>Builder</h3>
         <p>
-          Name: {firstname}, lastname: {lastname}, pant color: {pant_color},
-          favorite food: {favorite_food}, favorite tool:{favorite_tool} pet:
-          {pet}, hobby: {hobby}
+          Name: {firstname},<br />
+          Lastname: {lastname}, <br />
+          Pant color: {pant_color}, <br />
+          Favorite food: {favorite_food}, <br />
+          Favorite tool:{favorite_tool}, <br />
+          Pet:{pet}, <br />
+          Hobby: {hobby}
         </p>
       </div>
     </>

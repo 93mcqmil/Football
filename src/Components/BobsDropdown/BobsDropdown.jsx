@@ -14,7 +14,7 @@ const BobsDropdown = () => {
   };
 
   const selectedPersonObj = Persons.find(
-    (personObj) => personObj.name === person
+    (personObj) => personObj.firstname === person
   );
 
   return (
