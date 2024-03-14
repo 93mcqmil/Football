@@ -2,7 +2,7 @@
 
 //  //What is being displayed at the webpage! we also export Infobox and import it at the
 // Dropdown function
-
+import "./BobsInfoBox.css";
 const BobsInfoBox = ({
   firstname,
   lastname,
@@ -17,13 +17,14 @@ const BobsInfoBox = ({
       <div>
         <h3>Builder</h3>
         <p>
-          Name: {firstname},<br />
-          Lastname: {lastname}, <br />
-          Pant color: {pant_color}, <br />
-          Favorite food: {favorite_food}, <br />
-          Favorite tool:{favorite_tool}, <br />
-          Pet:{pet}, <br />
-          Hobby: {hobby}
+          Name: <span>{firstname},</span>
+          <br />
+          Lastname: <span>{lastname},</span> <br />
+          Pant color: <span>{pant_color},</span> <br />
+          Favorite food: <span>{favorite_food},</span> <br />
+          Favorite tool: <span>{favorite_tool},</span> <br />
+          Pet: <span>{pet},</span> <br />
+          Hobby: <span>{hobby}</span>
         </p>
       </div>
     </>

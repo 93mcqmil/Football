@@ -8,11 +8,12 @@ const BobsDropdown = () => {
   const [person, setPerson] = useState("");
 
   const handleChange = (event) => {
-    const selectedPerson = event.target.value;
-    setPerson(selectedPerson);
+    const selectedPerson = event.target.value; //gets value from the option that was selected
+    setPerson(selectedPerson); //updates person state with the value of d selected person
     console.log("Selected person :", selectedPerson);
   };
 
+  //find method searches the first name to see if it matches the selected person
   const selectedPersonObj = Persons.find(
     (personObj) => personObj.firstname === person
   );
@@ -27,11 +28,12 @@ const BobsDropdown = () => {
         onChange={handleChange}
         value={person}
       >
-        <option value=''>--Please choose an option--</option>
+        <option value=''>--Please choose an option--</option> // mapping throu
+        the json array
         {Persons.map((person, index) => (
           <option key={index} value={person.firstname}>
             {person.firstname} {person.lastname}
-          </option>
+          </option> // mapping throu the json array
         ))}
       </select>
       {/*Display InfoBox if a selected team object exists*/}
